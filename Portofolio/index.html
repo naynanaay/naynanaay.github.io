@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naynanaay web portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #F0A8D0;
+        }
+        .navbar {
+        position: sticky;
+        top: 0; /* Posisi dari atas jendela saat scroll */
+        z-index: 1000; /* Pastikan navbar berada di atas konten lain jika diperlukan */
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #ffffff !important;
+        }
+        .nav-link {
+            color: #ffffff !important;
+        }
+        .hero {
+            background: url(../img/download\ \(2\).gif) no-repeat center center fixed;
+            color: #000;
+            height: 100%;
+            padding: 100px 0;
+        }
+        .display-2{
+            margin-top: 12px;
+            color: rgb(185, 22, 4);
+        }
+        .about-section, .portfolio-section, .contact-section {
+            padding: 60px 0;
+        }
+        .about-section {
+            background-color: #F7B5CA;
+            color: white;
+        }
+        .portfolio-section {
+            background-color: #FFC6C6;
+        }
+        .portfolio-card {
+            border: none;
+            transition: transform 0.2s;
+        }
+        .portfolio-card:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-card img {
+            border-radius: 10px;
+        }
+        .contact-section {
+            background-color: #efc08b;
+            color: white;
+        }
+        .lead{
+            color: rgb(185, 22, 4);
+        }
+        .container{
+            color: rgb(255, 255, 255)
+        }
+        footer {
+            background-color: #d28585;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <img src="../img/Nay_logo__1_-removebg-preview.png" width="60" height="60">
+            <a class="navbar-brand" href="#" style="margin-left: 5px;">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <img src="../img/nas_logo-removebg-preview.png" alt="">
+            <h1 class="display-2">Hello, I'm Nayyara Ardine Shafiqa</h1>
+            <p class="lead"><b>A Passionate Web Developer & Designe</b>r</p>
+            <a href="#portfolio" class="btn btn-danger btn-lg">View My Work ?</a><br><br>
+            <div class="Pemisah flex" >
+                <div class="Pemisah flex" ></div>
+                <a href="https://www.instagram.com/naynanaay/">
+                    <i class="fa-brands fa-instagram" style="font-size: 40px;; color: black; margin-right: 20px;"></i>
+                </a>
+                <a href="https://www.facebook.com/nayyara.ardineshafiqa/">
+                    <i class="fa-brands fa-facebook" style="font-size: 40px; color: black; margin-right: 20px;"></i>
+                </a>
+                <a href="https://x.com/niexhuko08">
+                    <i class="fa-brands fa-x-twitter" style="font-size: 40px; color: black;"></i>
+                </a>
+            </div>
+            
+            </div>
+      </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Siswi SMK Hang tuah 1 Jakarta jurusan Rekayasa Perangkat Lunak, 3 funfact tentang saya obsesi dengan makanan dimsum 🤩, suka main valorant 😎, aku termasuk bocil alomani aka banh windah bersaudara 👩🏻‍💻 </p>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section text-center">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card portfolio-card mb-4">
+                        <img src="../img/brain busters.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Game Ke-2 "Brain Busters"</h5>
+                            <p class="card-text">Game berisi tentang kuis pengetahuan umum yang mengasyikan ^^</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card portfolio-card mb-4">
+                        <img src="../img/late time rush.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Game "Late Time Rush" </h5>
+                            <p class="card-text">Game bertema kan mirip-mirip seperti Subway Surf tetapi bedanya dari game ini adalah banyak berbagai manufaktur bangunan yang indah dan elok ^^</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card portfolio-card mb-4">
+                        <img src="../img/pt halo.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project PT Hallo Indonesia</h5>
+                            <p class="card-text">Memprogram Aplikasi Absensi Siswa dan Guru dengan menggunakan Visual Studio Code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-dark btn-lg">See More Projects</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section text-center">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you have any project or want to work together, feel free to reach out!</p>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-light btn-lg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; Copyright <b>naynanaay.</b> All rights reserved.</p>
+            <a href="#">Designed By Naynay</a> <a href="#"></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
